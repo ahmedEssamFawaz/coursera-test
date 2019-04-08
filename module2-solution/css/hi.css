@@ -1,0 +1,123 @@
+*{
+	box-sizing: border-box;
+	font-style: normal;
+}
+
+.row{
+	width: 100%;
+}
+
+section {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 15px;
+  background-color: #8F8C8C;
+  
+	
+	
+}
+
+h1{
+	margin-top: 0;
+	text-align: center; 
+}
+#a{
+	
+}
+
+/*************************************Desktop View ****************/
+@media(min-width: 992px){
+.col-lg-4{
+    float: left;
+   width: 33.33%;
+  }
+ #a {
+	position: relative;
+	left: 84%;
+	top: -20px;
+	
+
+
+}
+
+#o {
+	position: relative;
+	left: 90%;
+	top: -20px;
+}
+#c {
+	position: relative;
+	left: 90%;
+	top: -20px;
+
+}
+
+}
+
+
+
+@media(min-width: 768px) and (max-width: 991px){
+.col-md-6{
+    float: left;
+     width: 50%;
+  }
+  #p3 {
+  	width: 196%;
+  }
+  
+ #a {
+	position: relative;
+	left: 89%;
+	top: -20px;
+
+}
+
+
+#o {
+	position: relative;
+	left: 94%;
+	top: -25px;
+}
+
+#c {
+	position: relative;
+	left: 97%;
+	top: -25px;
+
+}
+
+
+
+}
+
+
+
+
+@media(max-width: 767px){
+	.col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+  
+  #a {
+	position: relative;
+	left: 93%;
+	top: -20px;
+}
+
+#o {
+	position: relative;
+	left: 96%;
+	top: -20px;
+}
+#c {
+	position: relative;
+	left: 96%;
+	top: -20px;
+
+}
+}
+
+
+
+
